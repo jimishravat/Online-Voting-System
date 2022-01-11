@@ -1,0 +1,5 @@
+To start the project go to " admin/ ". From here you will have the homepage of the project. You can go to the vote now section and at that screen you can eithier login as an
+admin or login as an voter. If you never logged in before then you need to sign up yourself. Then after you need to login in to the system.
+After login you will have to vote for one of the candidate in the election and then you will automatically redirected to the homepage.
+And after voting if you try to login again and vote for the second time then you will be restricted by the system as voters are only allowed once for the voting in a particular
+election.
