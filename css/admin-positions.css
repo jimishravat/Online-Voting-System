@@ -1,0 +1,8 @@
+.pos-div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 250px;
+}
+.pos-div table{
+    width: 50%;
+}

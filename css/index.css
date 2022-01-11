@@ -1,0 +1,171 @@
+
+/* Why voting section */
+
+#vote
+{
+    /* display: inline; */
+    /* float: left; */
+    width: 300px;   
+    height: 300px;
+    /* max-width: 280px; */
+    /* max-height: 280px; */
+    border-radius: 50%;
+    margin-right: 70px;
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+#vote:hover{
+    box-shadow:2px 2px 12px rgba(0,0,0,0.4);
+}
+.why-vote{
+  text-align: center;
+}
+.why-vote h3{
+    
+    padding: 10px;
+    font-size: 40px;
+}
+.why-vote p{
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    font-size:25px;
+}
+.why-vote-sec:hover{
+    transform: scale(1.02);
+}
+.how-vote-sec:hover{
+    transform: scale(1.02);
+}
+
+
+#vote-now{
+    display: block;
+    width: 150px; 
+    height: 70px;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    background-color:rgb(110, 22, 192); 
+    animation: flickeing 5s infinite;
+    box-shadow: 4px 4px 7px 6px rgb(0 0 0 / 30%);
+}
+#vote-now a{
+    color: black;
+    text-decoration: none;
+}
+#vote-now:hover{
+    transform:scale(1.2);
+}
+@keyframes flickeing {
+    0%{
+        background-color:#daa593;
+    }
+    20%{
+        background-color:#cbdd9b;
+    }
+    40%{
+        background-color:#90db9b;
+    }
+    60%{
+        background-color:#84cbd3;
+    }
+    80%{
+        background-color:#aa8dd8;
+    }
+    100%{
+        background-color:#d68eac;
+    }
+}
+
+.why-vote-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    position: relative;
+    left: 10%;
+    width:85%;
+    height:350px;
+    outline: none;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    background-color:#56b4b4;
+    
+    
+}
+
+/* how to vote section */
+.how-vote-sec{
+    display: flex;  
+    justify-content:center;
+    align-items:center;
+    border-radius:50px;
+    margin: 50px 0px;
+    position: relative;
+    left: 10%;
+    width:85%;
+    height:350px;
+    outline: none;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    background-color: #d1b4ab;
+
+}
+.how-vote{
+    text-align:center;
+
+}
+.how-vote h3{
+
+    font-size: 40px;
+
+}
+.how-vote p{
+    font-size: 20px;
+    padding:20px;
+    text-align: left;
+    margin: 5px;
+}
+ #vote-how
+{
+    width: 280px;   
+    height: 280px;
+    border-radius: 50%;
+    margin: 35px 50px;
+    
+}
+#vote-how:hover{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+
+/* Recently held election cards. */
+.rec-win{
+    
+    padding:50px;
+}
+
+.rec-win-card{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.rec-win-img{
+    width: 200px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.rec-elec-win{
+    width:100%;
+    margin: 70px 0px;
+    background-color: rgb(208, 229, 230);
+    text-align: center;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.3);
+}
+.rec-elec-win h2{
+    padding-top: 30px;
+}
+
+
+  
+

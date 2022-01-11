@@ -1,0 +1,39 @@
+.elec-div{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    margin: 10px 250px;
+}
+.elec-add div{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+.elec-add div label{
+    margin: 20px 10px;
+}
+.elec-add label:nth-child(1){
+    font-size:30px;
+}
+.elec-add div label:nth-child(1){
+    font-size:17px;
+}
+.elec-add div button{
+    margin: 10px 30px;
+}
+
+.elec-show table{
+    text-align: center;
+    border: 2px solid black;
+}
+.elec-show table tr th{
+    margin: 10px 10px;
+    padding:20px;
+    border:2px solid black;
+}
+.elec-show table tr td{
+    padding: 15px;
+    border:1px solid black;
+}

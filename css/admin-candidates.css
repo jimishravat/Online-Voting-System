@@ -1,0 +1,13 @@
+.can-div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 250px;
+}
+.can-div table{
+    width: 50%;
+}
+.cand-table{
+    margin-left:  100px;
+    /* margin: 0px; */
+    padding: 30px;
+}
